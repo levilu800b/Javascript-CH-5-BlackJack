@@ -252,11 +252,9 @@ function showResult(winner) {
 			messageColor = 'black';
 		}
 
-		document.querySelector(
-			'#blackjack-result'
-		).textContent = message;
-		document.querySelector(
-			'#blackjack-result'
-		).style.color = messageColor;
+		document.querySelector('#blackjack-result').textContent =
+			message;
+		document.querySelector('#blackjack-result').style.color =
+			messageColor;
 	}
 }
